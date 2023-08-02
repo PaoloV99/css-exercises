@@ -1,10 +1,28 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+.content {
+  margin-top:32px;
+  display: flex;
+  gap:52px;
+}
+
+.chili, .barberry, .pepper, .saffron {
+  width:200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  align-items: center;
+  text-align: center;
 }
 
 .title {
